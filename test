@@ -1,0 +1,8 @@
+testing file:
+
+import numpy as np
+import pandas as pd
+leftdf = pd.DataFrame ({'name':['bhushan','naga','bog'], 'sub':['tel','eng','math'],'sal':[1200,1100,1200]})
+rightdf = pd.DataFrame ({'name':['bhushan','naga','bog'],'village':['ktp','vgp','blr'],'dist':['chitr','kadap','kurnl']})
+dtmerg = pd.merge ( rightdf, leftdf, on='name' )
+dtmerg
